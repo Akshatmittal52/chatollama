@@ -1,4 +1,4 @@
-#import ollama
+import ollama as ollama
 import streamlit as st
 
 st.title("Ollama Python Chatbot")
