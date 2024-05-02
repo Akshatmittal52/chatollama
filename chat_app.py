@@ -40,9 +40,9 @@ if prompt := st.chat_input("What is up?"):
         message = st.write_stream(model_res_generator())
         st.session_state["messages"].append({"role": "assistant", "content": message})
 '''
-import ollama
+#import ollama
 import streamlit as st
-
+from langchain_community.chat_models import ollama
 st.title("Ollama Python Chatbot")
 
 # Initialize history
