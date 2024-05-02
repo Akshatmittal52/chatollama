@@ -1,6 +1,6 @@
-import ollama as ollama
+#import ollama as ollama
 import streamlit as st
-
+from langchain_community.chat_models import Ollama
 st.title("Ollama Python Chatbot")
 
 # initialize history
